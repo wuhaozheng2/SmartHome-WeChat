@@ -1,0 +1,64 @@
+{
+    "button": [
+        {
+            "name": "监控管理", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "实况截图", 
+                    "key": "V1001_SNAPSHOT"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "实况监控", 
+                    "url": "http://8001.vmengblog.com/"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "探头向左", 
+                    "key": "V1001_C_LEFT"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "探头向右", 
+                    "key": "V1001_C_RIGHT"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "安全预警功能", 
+                    "key": "V1001_AUTOSAFE"
+                }
+            ]
+        }, 
+        {
+            "name": "家居操作", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "获取温湿度", 
+                    "key": "V1001_TEMPERATURES"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "打开电灯", 
+                    "key": "V1001_LED_ON"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "关闭电灯", 
+                    "key": "V1001_LED_OFF"
+                }, 
+                {
+                    "type": "click", 
+                    "name": "自动光控功能", 
+                    "key": "V1001_AUTOLED"
+                }
+            ]
+        }, 
+        {
+            "type": "click", 
+            "name": "关于", 
+            "key": "V1001_HELP"
+        }
+    ]
+}
